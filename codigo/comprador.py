@@ -26,8 +26,9 @@ class Comprador(Usuario):
     def finalizarCompra(self):
         for item in self.carrinho.itens:
             item.qtd -= 1
-            self.carteira -= item.valor
+        return "COMPRA REALIZADA COM SUCESSO"
             
+
 
         
 

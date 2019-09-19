@@ -13,13 +13,18 @@ produto2 = Produto(1,2.5,"trufa")
 
 vendedor.setEstoque(produto1)
 vendedor.setEstoque(produto2)
+
+print("ESTOQUE -> ")
 print(vendedor.getEstoque())
 
 comprador.addCarrinho(produto1)
 comprador.addCarrinho(produto2)
 
-comprador.finalizarCompra()
+print("CARRINHO -> ")
+print(comprador.getCarrinho())
+
+print(comprador.finalizarCompra())
+print("ESTOQUE APOS VENDA -> ")
 print(vendedor.getEstoque())
 
 
-# print(comprador.getCarrinho())
