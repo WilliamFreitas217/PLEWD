@@ -11,10 +11,7 @@ class Vendedor(Usuario):
         return self.carteira
 
     def getEstoque(self):
-        produtoList = []
-        for item in self.estoque:
-            produtoList.append([item.qtd,item.valor,item.nomeProduto])
-        return produtoList
+        return self.estoque
 
     def setCarteira(self, valor):
         self.carteira += valor

@@ -9,4 +9,5 @@ class Produto():
         self.valor = valor
         self.nomeProduto = nomeProduto
 
-    
+    def __repr__(self):
+        return "<Quantidade: {}, Valor: {}, Nome: {}>".format(self.qtd, self.valor, self.nomeProduto)

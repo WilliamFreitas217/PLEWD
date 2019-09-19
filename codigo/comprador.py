@@ -3,18 +3,15 @@ from pedido import Pedido
 
 class Comprador(Usuario):
     
-    def __init__(self, carrinho, carteiraComprador):
-        self.carrinho = carrinho
+    def __init__(self, carteiraComprador):
+        self.carrinho = Pedido()
         self.carteiraComprador = carteiraComprador
 
     def getCarteiraComprador(self):
         return self.carteira
 
     def getCarrinho(self):
-        car = []
-        for item in self.carrinho:
-            car.append([[item.qtd,item.valor,item.nomeProduto]])
-        return car
+        return self.carrinho
 
     def setCarteira(self, valor, op):
         if op == "+":
@@ -26,9 +23,12 @@ class Comprador(Usuario):
         self.carrinho.addItem(item)
         return self.carrinho
 
-    def finalizarCompra(self,item):
-        pedido = Pedido()
-        for item in carrinho:
-            pedido.addItem(item)
+    def finalizarCompra(self):
+        for item in self.carrinho.itens:
+            item.qtd -= 1
+            self.carteira -= item.valor
+            
+
         
-        return pedido
+
+    
