@@ -229,7 +229,7 @@ p.lead {
 
 @media only screen and (max-width:800px) {
   p.lead {
-    font-size: 2rem;
+    font-size: 2.rem;
   }
 
 }
@@ -1698,8 +1698,8 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 140px;
-  height: 16px;
+  width: 180px;
+  height: 50px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1941,8 +1941,8 @@ input::-moz-focus-inner {
   }
 
   .header-logo img {
-    width: 130px;
-    height: 15px;
+    width: 180px;
+    height: 50px;
   }
 
   .header-nav-wrap {
@@ -2122,8 +2122,8 @@ input::-moz-focus-inner {
   font-weight: 300;
   font-size: 2.4rem;
   line-height: 1.6667;
-  font-style: normal;
-  color: rgba(255, 255, 255, 0.3);
+  font-style: oblique;
+  color: rgba(255, 255, 255, 255);
   margin-top: 2.8rem;
   width: 45%;
 }
@@ -2649,7 +2649,7 @@ html.no-csstransitions .home-content__main {
   padding-top: 20rem;
   padding-bottom: 0;
   background-color: #00a650;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 255);
   overflow: hidden;
   position: relative;
 }
@@ -2660,7 +2660,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-about p.lead {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 255);
 }
 
 .s-about .about-bottom-image {
@@ -3481,8 +3481,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .footer__logo img {
-  width: 135px;
-  height: 15px;
+  width: 180px;
+  height: 50px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3675,8 +3675,8 @@ html.no-csstransitions .home-content__main {
   }
 
   .footer__logo img {
-    width: 130px;
-    height: 15px;
+    width: 180px;
+    height: 50px;
   }
 
   .footer__site-links {
