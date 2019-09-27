@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Requisitos</title>
+		<meta charset="utf-8">
+		<div id="div1">	
+			<h1 style="font-size: 100px">P.L.E.W.D</h1>
+			<h2 style="font-size: 30px">Projeto Letícia Érica William Diego</h3>
+			<br style="font-size: 100px"></br>
+			<h1 style="font-size: 80px">Requisitos</h1>
+			<br style="font-size: 100px"></br>
+			<br style="font-size: 100px"></br>
+			<br style="font-size: 100px"></br>
+		</div>
+		<br>
+		<style type="text/css">
+			#div1{
+				width:1000px;
+				height: 1380px;
+				text-align: center;
+				border: 8px solid;
+				border-color: gray;
+			}
+			#div2{
+				width:1000px;
+				height: 1380px;
+				text-align: center;
+				border: 8px solid;
+				border-color: gray;
+			}
+			#div3{
+				width:1000px;
+				height: 1380px;
+				text-align: center;
+				border: 8px solid;
+				border-color: gray;	
+			}
+			#list1{
+				text-align: left;
+				font-size: 30px;
+			}
+			table{
+				border-collapse: separate;
+				border-spacing: 0;
+				width: 100%;
+			}
+			table, td{
+				border: 1px solid black;
+				border-radius: 5px;
+				-moz-border-radius: 5px;
+				padding: 5px;
+			}
+			table, th{
+				font-size: 20px;
+			}
+			#tab{
+				text-align: left;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div2">
+			<h1 style="font-size: 80px">Equipe</h1>
+			<hr>
+			<ul id="list1">
+				<li>Diego Cunha - <b><i>Gerente de Projetos</i></b></li>
+				<li>Érica Amoedo - <b><i>Desenvolvedora</i></b></li>
+				<li>John de Souza - <b><i>Desenvolvedor</i></b></li>
+				<li>Letícia Vieira - <b><i>Líder técnica</i></b></li>
+				<li>William Freitas - <b><i>Tester</i></b></li>
+				<br style="font-size: 1000px"><br>
+			</ul>
+			
+			<br><br>
+		</div>
+		<br>
+		<div id="div3">
+			<h1 style="font-size: 80px">Objetivo</h1>
+			<br>
+			<p style="font-size: 30px">
+				Este documento tem como objetivo mostrar para o cliente o significado por trás de jargões e termos técnicos utilizados no processo de construção do produto, afim de propiciar um ambiente claro e consciente do que cada funcionalidade exerce dentro do sistema. 
+			</p>
+			<p style="font-size: 30px">
+				Citar as principais funcionalidades do produto, através dos seus Requisitos Funcionais, bem como seus níveis de recorrência, criticidade e prioridade.
+			</p>
+			<p style="font-size: 30px">
+				Mostrar o que há por trás do funcionamento dos requisitos funcionais, listando os Requisitos Não-Funcionais do produto, bem como suas respectivas descrições e métricas que irão tangir se estão sendo alcançados conforme projetados.
+			</p>
+			<p style="font-size: 30px">
+				Explanar o funcionamento do produto no que se refere às Regras de Negócio e citar as medidas que o norteam, bem como Leis, Regras Contratuais, horários e dias de funcionamento, etc.
+			</p>
+			<p style="font-size: 30px">
+				Mostrar a forma de contornar adversidades quando das mesmas.
+			</p>
+			<p style="font-size: 30px">
+				Apresentar a descrição de cada indivíduo operador do produto. Citar características e ações oriundas de cada agente quando utiliza-lo e orientar a respeito de limitações e restrições estabelecidas a cada ator.
+			</p>
+			<p style="font-size: 30px">
+				Instruir o cliente para evitar que situações adversas aconteçam, a fim de obter-se o melhor desempenho do produto e uma maior satisfação do cliente.
+				Descreve-se como se faz o correto uso.
+			</p>
+			
+		</div>
+		<br>
+		<hr>
+		<br><br><br><br>
+		<div id="div3">
+			<h1 style="font-size: 80px">Glossário</h1>
+			<br>
+			<ul id="list1">
+				<li><b>Usuário</b> - Personificação abstraída e individualizada de comprador e vendedor</li>
+				<li><b>Comprador</b> - Ator da atividade de compra</li>
+				<li><b>Vendedor</b> - Ator da atividade de venda</li>
+				<li><b>App</b> - Sistema em questão a ser utilizado pelos usuários</li>
+				<li><b>Produtos</b> - Mercadoria disponibilizada pelo vendedor para a atividade de compra do comprador</li>
+				<li><b>Carrinho</b> - Montante de produtos selecionados pelo comprador, a fim de calcular o preço total da compra.</li>
+			</ul>
+			<hr>
+			<h1 style="font-size: 80px">Requisitos Funcionais</h1>
+			<table id="tab">
+				<tbody>
+					<tr>
+						<th>Num. Requisito</th>
+						<th>RF</th>
+						<th>Recorrência</th>
+						<th>Criticidade</th>
+						<th>Prioridade</th>
+					</tr>
+					<tr>
+						<td>RF001</td>
+						<td>Cadastrar Produto</td>
+						<td>3</td>
+						<td>10</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<td>RF002</td>
+						<td>Cadastrar Usuário</td>
+						<td>1</td>
+						<td>10</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>RF003</td>
+						<td>Cadastrar Pedido</td>
+						<td>9</td>
+						<td>10</td>
+						<td>8</td>
+					</tr>
+					<tr>
+						<td>RF004</td>
+						<td>Cadastrar Pedido Item</td>
+						<td>10</td>
+						<td>10</td>
+						<td>9</td>
+					</tr>
+					<tr>
+						<td>RF005</td>
+						<td>Realizar Login</td>
+						<td>2</td>
+						<td>7</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>RF006</td>
+						<td>Listar Vendedor</td>
+						<td>10</td>
+						<td>8</td>
+						<td>4</td>
+					</tr>
+					<tr>
+						<td>RF007</td>
+						<td>Listar Produto</td>
+						<td>9</td>
+						<td>8</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>RF008</td>
+						<td>Selecionar Produto</td>
+						<td>8</td>
+						<td>8</td>
+						<td>6</td>
+					</tr>
+					<tr>
+						<td>RF009</td>
+						<td>Adicionar ao Carrinho</td>
+						<td>7</td>
+						<td>9</td>
+						<td>7</td>
+					</tr>
+					<tr>
+						<td>RF010</td>
+						<td>Calcular Total</td>
+						<td>7</td>
+						<td>10</td>
+						<td>10</td>
+					</tr>
+					<tr>
+						<td>RF011</td>
+						<td>Finalizar Compra</td>
+						<td>7</td>
+						<td>8</td>
+						<td>12</td>
+					</tr>
+					<tr>
+						<td>RF012</td>
+						<td>Escolher forma de Pagamento</td>
+						<td>7</td>
+						<td>8</td>
+						<td>11</td>
+					</tr>
+					<tr>
+						<td>RF013</td>
+						<td>Notificar Vendedor</td>
+						<td>7</td>
+						<td>8</td>
+						<td>13</td>
+					</tr>
+					<tr>
+						<td>RF014</td>
+						<td>Confirmar Entrega</td>
+						<td>7</td>
+						<td>8</td>
+						<td>14</td>
+					</tr>
+				</tbody>
+			</table>
+			<hr>
+		</div>
+		<div id="div3">
+			<h1 style="font-size: 70px">Requisitos Não-Funcionais</h1>
+			<table id="tab">
+				<tbody>
+					<tr>
+						<th>Num. Requisito</th>
+						<th>Descrição</th>
+						<th>Métricas</th>
+					</tr>
+					<tr>
+						<td>RNF001</td>
+						<td>Login de acesso com Oauth2 para login via Facebook</td>
+						<td>Autenticação com Sucesso</td>
+					</tr>
+					<tr>
+						<td>RNF002</td>
+						<td>Login no site com JWT</td>
+						<td>Autenticação com sucesso</td>
+					</tr>
+					<tr>
+						<td>RNF003</td>
+						<td>Token de acesso registrado por 24 horas a partir do Login</td>
+						<td>Logoff automático quando expirado</td>
+					</tr>
+					<tr>
+						<td>RNF004</td>
+						<td>Tamanho de tela mínimo: 5 Polegadas</td>
+						<td>Calibragem de tela</td>
+					</tr>
+					<tr>
+						<td>RNF005</td>
+						<td>Sistema Operacional Requerido: Android, IOS</td>
+						<td>Download mediante verificação de requisitos</td>
+					</tr>
+					<tr>
+						<td>RNF006</td>
+						<td>Responsividade</td>
+						<td>Teste em diferentes dispositivos</td>
+					</tr>
+					<tr>
+						<td>RNF007</td>
+						<td>Navegadores Web requeridos: Google Chrome e Mozilla Firefox</td>
+						<td>Testes nos navegadores citados</td>
+					</tr>
+					<tr>
+						<td>RNF008</td>
+						<td>Navegadores Mobile: Internet Samsung, Google Chrome e Safari</td>
+						<td>Testes nos navegadores citados</td>	
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<hr>
+			<h1 style="font-size: 70px">Regras de Negócio</h1>
+			<table id="tab">
+				<tbody>
+					<tr>
+						<th>Num. Regra</th>
+						<th>Descrição</th>
+					</tr>
+					<tr>
+						<td>RN001</td>
+						<td>Funcionamento de Segunda à Sábado</td>
+						
+					</tr>
+					<tr>
+						<td>RN002</td>
+						<td>Contratos com Empresas de Cartão de Crédito</td>
+					</tr>
+					<tr>
+						<td>RN003</td>
+						<td>Lei Geral de Proteção de Dados - LGPD</td>
+						
+					</tr>
+					<tr>
+						<td>RN004</td>
+						<td>Idade Mínima: 18 anos</td>
+						
+					</tr>
+					<tr>
+						<td>RN005</td>
+						<td>Alunos da EST</td>
+			
+					</tr>
+					<tr>
+						<td>RN006</td>
+						<td>Vetada toda e qualquer conversa de caráter impróprio</td>
+						
+					</tr>
+					<tr>
+						<td>RN007</td>
+						<td>Fraudes tratadas com penalizações</td>
+						
+					</tr>
+					<tr>
+						<td>RN008</td>
+						<td>Não serão realizadas transações com coneão instável</td>
+							
+					</tr>
+					<tr>
+						<td>RN009</td>
+						<td>Sem vendas "Fiadas"</td>
+						
+					</tr>
+					<tr>
+						<td>RN010</td>
+						<td>Não será permitido fazer entregas durante aulas</td>
+							
+					</tr>
+					<tr>
+						<td>RN011</td>
+						<td>Download mediante aceitação de Termos de Uso</td>
+							
+					</tr>
+				</tbody>
+			</table>
+			<hr>
+			<br>
+		</div>
+		<br>
+		<hr>
+		<br><br><br><br>
+		<div id="div3">
+			<h1 style="font-size: 70px">Diagramas de Caso de Uso</h1>
+			<ul id="list1">
+				<li><strong><a href="DCU-RF001.html">Cadastrar Produto</a></strong></li>
+				<li><strong><a href="DCU-RF02.html">Cadastrar Usuário</a></strong></li>
+				<li><strong><a href="DCU-RF003.html">Cadastrar Pedido</a></strong></li>
+				<li><strong><a href="DCU-RF004.html">Cadastrar Pedido Item</a></strong></li>
+				<li><strong><a href="DCU-RF005.html">Realizar Login</a></strong></li>
+				<li><strong><a href="DCU-RF006.html">Listar Vendedor</a></strong></li>
+				<li><strong><a href="DCU-RF007.html">Listar Produto</a></strong></li>
+				<li><strong><a href="DCU-RF008.html">Selecionar Produto</a></strong></li>
+				<li><strong><a href="">Adicionar ao Carrinho</a></strong></li>
+				<li><strong><a href="DCU-RF010.html">Calcular Total</a></strong></li>
+				<li><strong><a href="">Finalizar Compra</a></strong></li>
+				<li><strong><a href="DCU-RF012.html">Escolher Forma de Pagamento</a></strong></li>
+				<li><strong><a href="DCU-RF013.html">Notificar Vendedor</a></strong></li>
+				<li><strong><a href="DCU-RF014.html">Confirmar Entrega</a></strong></li>
+			</ul>
+			<br>
+			<hr>
+			<h1 style="font-size: 70px">Descrição dos Atores</h1>
+			<ul id="list1">
+				<li><strong>Usuário</strong>
+					<p>Personificação abstraída e individualizada de comprador e vendedor.</p>
+				</li>
+				<li><strong>Comprador</strong>
+					<p>Ator da atividade de compra. Um dos alvos dos idealziadores deste produto. Perfil de usuário que movimenta o produto com a atividade de compra.</p>
+				</li>
+				<li><strong>Vendedor</strong>
+					<p style="font-size: 28px">Ator da atividade de venda. Um dos alvos dos idealziadores deste produto. Perfil de usuário que movimenta o produto com a atividade de venda.</p>
+				</li>
+			</ul>
+		</div>
+		<br>
+		<hr><br><br>
+		<div id="div3">
+			<h1 style="font-size: 70px">Descrição dos casos de uso</h1>
+			<ul id="list1">
+				<li><strong>Cadastrar Produto</strong>
+					<p style="font-size: 28px">
+						Aqui, permitimos que o usuário possa realizar cadastro de Produtos no sistema, permitindo que estes sejamdisponibilizados para compra. É realizado um registro no Banco de Dados, utilizado para que, quando requisitado, caso esteja em estoque, seja possível adicionar ao carrinho.
+					</p>
+				</li>
+				<li><strong>Cadastrar Usuário</strong>
+					<p style="font-size: 28px">
+						Aqui, permitimos que o usuário possa realizar cadastro no sistema, viabilizando o uso de suas diversas funcionalidades. É realizado um registro no Banco de Dados, utilizado para que, mediante login com id de usuário e senha, seja possível utilizar o produto.
+					</p>
+				</li>
+				<li><strong>Cadastrar Pedido</strong>
+					<p style="font-size: 28px">
+						Aqui, após selecionados todos os produtos desejados e adicionados ao carrinho, é possível formalizar uma requisição indivídual contendo todos os itens agrupados neste carrinho.
+					</p>
+				</li>
+				<li><strong>Cadastrar Pedido Item</strong>
+					<p style="font-size: 28px">
+						Aqui, de forma análoga ao item anterior, formaliza-se um pedido, no entanto, este refere-se ao item de forma individual, viabilizando que o cliente possa mencionar quantidade tanto para adicionar, quanto para retirar do carrinho, se assim desejar.
+					</p>
+				</li>
+				<li><strong>Realizar Login</strong>
+					<p style="font-size: 28px">Aqui, o usuário deve fornecer os dados de acesso(Login e Senha). Após, verifica-se no Banco de Dados a autenticidade dos valores fornecidos, permitindo acesso ao sistema meditante autenticação bem sucedida, ou redirecionar para a tela inicial de login quando não autenticadas as informações.</p>
+				</li>
+			</ul>
+			<hr><br><br><br>
+		</div>
+		<div id="div3">
+			<ul id="list1">
+				<li><strong>Listar Vendedor</strong>
+					<p style="font-size: 28px">
+						Aqui, um comprador, após selecionar o produto desejado, pode visualizar todos os vendedores do tal produto em forma de lista, afim de selecionar o vendedorde seu agrado.
+					</p>
+				</li>
+				<li><strong>Listar Produto</strong>
+					<p style="font-size: 28px">Aqui, um comprador visualiza de forma seletiva as variedades de produtos existentes.</p>
+				</li>
+				<li><strong>Selecionar Produto</strong>
+					<p style="font-size: 28px">Aqui, faz-se a seleção de um item para que seja marcado como item a adicionar no carrinho.</p>
+				</li>
+				<li><strong>Adicionar ao Carrinho</strong>
+					<p style="font-size: 28px">
+						Aqui, um botão é exibido permitindo a inserção de um produto slecionado no carrinho.
+					</p>
+				</li>
+				<li><strong>Calcular Total</strong>
+					<p style="font-size: 28px">
+						Aqui, um botão dentro do carrinho é exibido viabilizando ao usuário o valor total de sua compra, de acordo com os produtos existentes em seu carrinho em determinado momento. Este valor é alterado toda vez que é feita um inserção, remoção ou mudança na quantidade de itens.
+					</p>
+				</li>
+				<li><strong>Finalizar Compra</strong>
+					<p style="font-size: 28px">
+						Aqui, mostra-se um botão de confirmação de requisição de compra dos itens adicionados no carrinho. Neste momento, são decrementados do estoque de produtos de determinado vendedor a quantidade de produtos requisitados por seu comprador.
+					</p>
+				</li>
+				<li><strong>Escolher Forma de Pagamento</strong>
+					<p style="font-size: 28px">
+						Aqui, o usuário tem botões <i>Radio</i> para escolher a forma de Pagamento(Débito, Crédito ou dinheiro).
+					</p>
+				</li>
+				<li><strong>Notificar Vendedor</strong>
+					<p style="font-size: 28px">Aqui, quando há uma requisição de um pedido, existe um botão de sinalização da parte do comprador, para que o vendedor saiba que produtos dele foram requisitados.</p>
+				</li>
+			</ul>
+		</div>
+		<hr>
+		<br><br><br><br><br>
+		<div id="div3">
+			<ul id="list1">
+				<li><strong>Confirmar Entrega</strong>
+					<p style="font-size: 28px">Após realizada a transação, realizado o pagamento e entregue a mercadoria, o vendedor e o produto sinalizam um pro outro, através de avaliação, mostrando satisfação com a compra e que foi finalizada a transação.</p>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
