@@ -4,6 +4,10 @@
 		<title>Requisitos</title>
 		<meta charset="utf-8">
 		<div id="div1">	
+			<ul class="breadcrumb">
+  				<li><a href="doc.html">Home</a></li>
+  				<li><a href="req.html">Requisitos</a></li>
+			</ul>	
 			<h1 style="font-size: 100px">P.L.E.W.D</h1>
 			<h2 style="font-size: 30px">Projeto Letícia Érica William Diego</h3>
 			<br style="font-size: 100px"></br>
@@ -55,6 +59,28 @@
 			}
 			#tab{
 				text-align: left;
+			}
+			ul.breadcrumb {
+				padding: 10px 16px;
+				list-style: none;
+				background-color: #eee;
+			}
+			ul.breadcrumb li {
+			  	display: inline;
+			  	font-size: 18px;
+			}
+			ul.breadcrumb li+li:before {
+			  	padding: 8px;
+			  	color: black;
+			  	content: "/\00a0";
+			}
+			ul.breadcrumb li a {
+			  	color: #0275d8;
+			  	text-decoration: none;
+			}
+			ul.breadcrumb li a:hover {
+			  	color: #01447e;
+			  	text-decoration: underline;
 			}
 		</style>
 	</head>
@@ -351,7 +377,7 @@
 		<hr>
 		<br><br><br><br>
 		<div id="div3">
-			<h1 style="font-size: 70px">Diagramas de Caso de Uso</h1>
+			<h1 style="font-size: 70px">Casos de Uso</h1>
 			<ul id="list1">
 				<li><strong><a href="DCU-RF001.html">Cadastrar Produto</a></strong></li>
 				<li><strong><a href="DCU-RF02.html">Cadastrar Usuário</a></strong></li>
@@ -361,9 +387,9 @@
 				<li><strong><a href="DCU-RF006.html">Listar Vendedor</a></strong></li>
 				<li><strong><a href="DCU-RF007.html">Listar Produto</a></strong></li>
 				<li><strong><a href="DCU-RF008.html">Selecionar Produto</a></strong></li>
-				<li><strong><a href="">Adicionar ao Carrinho</a></strong></li>
+				<li><strong><a href="DCU-RF009.html">Adicionar ao Carrinho</a></strong></li>
 				<li><strong><a href="DCU-RF010.html">Calcular Total</a></strong></li>
-				<li><strong><a href="">Finalizar Compra</a></strong></li>
+				<li><strong><a href="DCU-RF011.html">Finalizar Compra</a></strong></li>
 				<li><strong><a href="DCU-RF012.html">Escolher Forma de Pagamento</a></strong></li>
 				<li><strong><a href="DCU-RF013.html">Notificar Vendedor</a></strong></li>
 				<li><strong><a href="DCU-RF014.html">Confirmar Entrega</a></strong></li>
