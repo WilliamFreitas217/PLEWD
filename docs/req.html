@@ -175,7 +175,7 @@
 					</tr>
 					<tr>
 						<td>RF004</td>
-						<td>Cadastrar Pedido Item</td>
+						<td>Retirar Item</td>
 						<td>10</td>
 						<td>10</td>
 						<td>9</td>
@@ -217,34 +217,27 @@
 					</tr>
 					<tr>
 						<td>RF010</td>
-						<td>Calcular Total</td>
-						<td>7</td>
-						<td>10</td>
-						<td>10</td>
-					</tr>
-					<tr>
-						<td>RF011</td>
 						<td>Finalizar Compra</td>
 						<td>7</td>
 						<td>8</td>
 						<td>12</td>
 					</tr>
 					<tr>
-						<td>RF012</td>
+						<td>RF011</td>
 						<td>Escolher forma de Pagamento</td>
 						<td>7</td>
 						<td>8</td>
 						<td>11</td>
 					</tr>
 					<tr>
-						<td>RF013</td>
+						<td>RF012</td>
 						<td>Notificar Vendedor</td>
 						<td>7</td>
 						<td>8</td>
 						<td>13</td>
 					</tr>
 					<tr>
-						<td>RF014</td>
+						<td>RF013</td>
 						<td>Confirmar Entrega</td>
 						<td>7</td>
 						<td>8</td>
@@ -377,22 +370,21 @@
 		<hr>
 		<br><br><br><br>
 		<div id="div3">
-			<h1 style="font-size: 70px">Casos de Uso</h1>
+			<h1 style="font-size: 70px">Diagramas de Caso de Uso</h1>
 			<ul id="list1">
 				<li><strong><a href="DCU-RF001.html">Cadastrar Produto</a></strong></li>
 				<li><strong><a href="DCU-RF02.html">Cadastrar Usuário</a></strong></li>
 				<li><strong><a href="DCU-RF003.html">Cadastrar Pedido</a></strong></li>
-				<li><strong><a href="DCU-RF004.html">Cadastrar Pedido Item</a></strong></li>
+				<li><strong><a href="DCU-RF004.html">Retirar Item</a></strong></li>
 				<li><strong><a href="DCU-RF005.html">Realizar Login</a></strong></li>
 				<li><strong><a href="DCU-RF006.html">Listar Vendedor</a></strong></li>
 				<li><strong><a href="DCU-RF007.html">Listar Produto</a></strong></li>
 				<li><strong><a href="DCU-RF008.html">Selecionar Produto</a></strong></li>
-				<li><strong><a href="DCU-RF09.html">Adicionar ao Carrinho</a></strong></li>
-				<li><strong><a href="DCU-RF010.html">Calcular Total</a></strong></li>
-				<li><strong><a href="DCU-RF011.html">Finalizar Compra</a></strong></li>
-				<li><strong><a href="DCU-RF012.html">Escolher Forma de Pagamento</a></strong></li>
-				<li><strong><a href="DCU-RF013.html">Notificar Vendedor</a></strong></li>
-				<li><strong><a href="DCU-RF014.html">Confirmar Entrega</a></strong></li>
+				<li><strong><a href="">Adicionar ao Carrinho</a></strong></li>
+				<li><strong><a href="DCU-RF010.html">Finalizar Compra</a></strong></li>
+				<li><strong><a href="">Escolher Forma de Pagamento</a></strong></li>
+				<li><strong><a href="DCU-RF012.html">Notificar Vendedor</a></strong></li>
+				<li><strong><a href="DCU-RF013.html">Confirmar Entrega</a></strong></li>
 			</ul>
 			<br>
 			<hr>
@@ -429,9 +421,9 @@
 						Aqui, após selecionados todos os produtos desejados e adicionados ao carrinho, é possível formalizar uma requisição indivídual contendo todos os itens agrupados neste carrinho.
 					</p>
 				</li>
-				<li><strong>Cadastrar Pedido Item</strong>
+				<li><strong>Retirar Item</strong>
 					<p style="font-size: 28px">
-						Aqui, de forma análoga ao item anterior, formaliza-se um pedido, no entanto, este refere-se ao item de forma individual, viabilizando que o cliente possa mencionar quantidade tanto para adicionar, quanto para retirar do carrinho, se assim desejar.
+						Aqui, de forma análoga ao item anterior, formaliza-se um pedido, no entanto, este refere-se ao item de forma individual, viabilizando que o cliente possa retirar do carrinho, se assim desejar.
 					</p>
 				</li>
 				<li><strong>Realizar Login</strong>
@@ -458,11 +450,6 @@
 						Aqui, um botão é exibido permitindo a inserção de um produto slecionado no carrinho.
 					</p>
 				</li>
-				<li><strong>Calcular Total</strong>
-					<p style="font-size: 28px">
-						Aqui, um botão dentro do carrinho é exibido viabilizando ao usuário o valor total de sua compra, de acordo com os produtos existentes em seu carrinho em determinado momento. Este valor é alterado toda vez que é feita um inserção, remoção ou mudança na quantidade de itens.
-					</p>
-				</li>
 				<li><strong>Finalizar Compra</strong>
 					<p style="font-size: 28px">
 						Aqui, mostra-se um botão de confirmação de requisição de compra dos itens adicionados no carrinho. Neste momento, são decrementados do estoque de produtos de determinado vendedor a quantidade de produtos requisitados por seu comprador.
@@ -476,12 +463,6 @@
 				<li><strong>Notificar Vendedor</strong>
 					<p style="font-size: 28px">Aqui, quando há uma requisição de um pedido, existe um botão de sinalização da parte do comprador, para que o vendedor saiba que produtos dele foram requisitados.</p>
 				</li>
-			</ul>
-		</div>
-		<hr>
-		<br><br><br><br><br>
-		<div id="div3">
-			<ul id="list1">
 				<li><strong>Confirmar Entrega</strong>
 					<p style="font-size: 28px">Após realizada a transação, realizado o pagamento e entregue a mercadoria, o vendedor e o produto sinalizam um pro outro, através de avaliação, mostrando satisfação com a compra e que foi finalizada a transação.</p>
 				</li>
