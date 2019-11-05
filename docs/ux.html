@@ -3,11 +3,15 @@
 	<head>
 		<title>UX</title>
 		<meta charset="utf-8">
-		<div id="div1">	
+		<div id="div1">
+			<ul class="breadcrumb">
+  				<li><a href="doc.html">Home</a></li>
+  				<li><a href="ux.html">UI/UX</a></li>
+			</ul>	
 			<h1 style="font-size: 100px">P.L.E.W.D</h1>
 			<h2 style="font-size: 30px">Projeto Letícia Érica William Diego</h3>
 			<br style="font-size: 100px"></br>
-			<h1 style="font-size: 80px">UX</h1>
+			<h1 style="font-size: 80px">UI/UX</h1>
 			<br style="font-size: 100px"></br>
 			<br style="font-size: 100px"></br>
 			<br style="font-size: 100px"></br>
@@ -39,6 +43,28 @@
 				text-align: left;
 				font-size: 30px;
 			}
+			ul.breadcrumb {
+				padding: 10px 16px;
+				list-style: none;
+				background-color: #eee;
+			}
+			ul.breadcrumb li {
+			  	display: inline;
+			  	font-size: 18px;
+			}
+			ul.breadcrumb li+li:before {
+			  	padding: 8px;
+			  	color: black;
+			  	content: "/\00a0";
+			}
+			ul.breadcrumb li a {
+			  	color: #0275d8;
+			  	text-decoration: none;
+			}
+			ul.breadcrumb li a:hover {
+			  	color: #01447e;
+			  	text-decoration: underline;
+			}
 		</style>
 	</head>
 	<body>
@@ -59,10 +85,31 @@
 			<h1 style="font-size: 80px">Objetivo</h1>
 			<br>
 			<p style="font-size: 30px">
-
+				Esta parte da documentação visa mostrar de forma prática e visual cada requisito para que o usuário tenha máximo entendimento da aplicação.
 			</p>
 			<br>
-			
 		</div>
+		<div id="div3">
+			<h1 style="font-size: 70px">UI/UX 1.0</h1>
+			<ul id="list1">
+				<li><strong><a href="UX/RF001/Cadastrar Produto.png">Cadastrar Produto</a></strong></li>
+				<li><strong><a href="UX/RF002/Cadastrar Usuário.png">Cadastrar Usuário</a></strong></li>
+				<li><strong><a href="UX/RF003/Cadastrar Pedido.png">Cadastrar Pedido</a></strong></li>
+				<li><strong><a href="UX/RF004/Retirar Pedido.png">Retirar Item</a></strong></li>
+				<li><strong><a href="UX/RF005/Realizar Login.png">Realizar Login</a></strong></li>
+				<li><strong><a href="UX/RF006/Listar Vendedor.png">Listar Vendedor</a></strong></li>
+				<li><strong><a href="UX/RF007/Listar Produto.png">Listar Produto</a></strong></li>
+				<li><strong><a href="UX/RF008/Selecionar Produto.png">Selecionar Produto</a></strong></li>
+				<li><strong><a href="UX/RF009/Adicionar ao Carrinho.png">Adicionar ao Carrinho</a></strong></li>
+				<li><strong><a href="UX/RF010/Finalizar Compra.png">Finalizar Compra</a></strong></li>
+				<li><strong><a href="UX/RF011/Escolher Forma de Pgto.png">Escolher Forma de Pagamento</a></strong></li>
+				<li><strong><a href="UX/RF012/Notificar Vendedor.png">Notificar Vendedor</a></strong></li>
+				<li><strong><a href="UX/RF012/Notificações.png">Notificações</a></strong></li>
+				<li><strong><a href="UX/RF013/Confirmar Entrega.png">Confirmar Entrega</a></strong></li>
+			</ul>
+			<br>
+		</div>
+		<br>
+		<hr><br><br>
 	</body>
 </html>
