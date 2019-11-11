@@ -1,0 +1,18 @@
+1 - Criando a imagem:
+    docker build -t my-mysql .
+
+2 - Iniciando o Container:
+    docker run -d -p 3306:3306 --name my-mysql -e MYSQL_ROOT_PASSWORD=supersecret my-mysql
+
+3 - Executando o container:
+    docker exec -it my-mysql bash
+
+----------------------------------------------------------------------------------------------------
+
+1 - Utilizando o mysql no container: 
+    mysql -uroot -p
+
+2 - Digite a senha:
+    supersecret
+
+
